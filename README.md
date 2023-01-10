@@ -1,7 +1,7 @@
 Technologies & Tools I used for this project 🛠️
 
 * Front-end -> HTML, JQuery
-* Back-end -> PHP
+* Back-end -> PHP, JavaScript
 * Free API's -> GeoNames
 * Domain Registration, Web Hosting at -> IONOS
 * XAMPP -> Server
