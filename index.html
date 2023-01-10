@@ -1,0 +1,147 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>TASK</title>
+		<meta name="description" content="TASK">
+		<meta name="author" content="Kasia Siw">
+
+	</head>
+
+	<body>
+        <div>
+            <table>
+                <th>API NAME</th>
+                <th>API DESCRIPTION</th>
+                <th>SELECT</th>
+                <th>BUTTON</th>
+                <tr>
+                    <td>Postal code country info</td>
+                    <td>countries for which postal code geocoding is available.</td>
+                    <td>
+                        <select id="selCountry">
+                            <option value="AD">Andorra</option>
+                            <option value="AR">Argentina</option>
+                            <option value="DE">Germany</option>
+                            <option value="DK">Denmark</option>
+                        </select>
+                    </td>
+                    <td><button id="btnRunOne">SUBMIT</button></td>
+                </tr>
+                
+                <tr>
+                    <td>Children</td>
+                    <td>Returns example for a dependency hierarchy, dependencies of the UK.</td>
+                    <td>
+                        <select id="selReg">
+                            <option value="3042362">Bailiwick of Guernsey</option>
+                            <option value="3042225">Isle of Man</option>
+                            <option value="3042142">Bailiwick of Jersey</option>
+                            <option value="3573511">Anguilla</option>
+                        </select>
+                    </td>
+                    <td><button id="btnRunTwo">SUBMIT</button></td>
+                </tr>
+                <tr>
+                    <td>Neighbours</td>
+                    <td>Returns neighbour info of selected country.</td>
+                    <td>
+                        <select id="selNeighbour">
+                            <option value="2782113">Austria</option>
+                            <option value="3017382">France</option>
+                            <option value="2921044">Germany</option>
+                            <option value="3175395">Italy</option>
+                            <option value="3042058">Liechtenstein</option>
+                        </select>
+                    </td>
+                    <td><button id="btnRunThree">SUBMIT</button></td>
+                </tr>
+                <!-- first API -->
+                <tr>
+                    <td>Country Code:</td>
+                    <td id="txtCountryCode">
+
+                    </td>
+                
+                    <td>Number of Postal Codes:</td>
+                    <td id="txtNumPostalCodes">
+
+                    </td>
+                
+                    <td>Min Postal Code:</td>
+                    <td id="txtMinPostalCode">
+
+                    </td>
+                
+                    <td>Max Postal Code:</td>
+                    <td id="txtMaxPostalCode">
+
+                    </td>
+                </tr>
+
+                <!-- sec API  -->
+                <tr>
+                    <td>Country Code:</td>
+                    <td id="txtCountryCodeTwo">
+
+                    </td>
+                
+                    <td>GeonameId:</td>
+                    <td id="txtGeonameId">
+
+                    </td>
+                
+                    <td>Lat:</td>
+                    <td id="txtLat">
+
+                    </td>
+                
+                    <td>LNG:</td>
+                    <td id="txtLng">
+
+                    </td>
+
+                </tr>
+                   <!-- third API  -->
+                   <tr>
+                    <td>Toponym Name:</td>
+                    <td id="txtToponymName">
+
+                    </td>
+                
+                    <td>GeonameId:</td>
+                    <td id="txtGeonameIdTwo">
+
+                    </td>
+
+                    <td>Country Code:</td>
+                    <td id="txtcountryCodeThree">
+
+                    </td>
+                
+                    <td>Lat:</td>
+                    <td id="txtLatTwo">
+
+                    </td>
+                
+                    <td>Lng:</td>
+                    <td id="txtLngTwo">
+
+                    </td>
+
+                </tr>
+                
+            </table>
+
+		</div>
+
+		<script type="application/javascript" src="./libs/js/jquery.js"></script>
+		<script type="application/javascript" src="./libs/js/script.js"></script>
+
+	</body>
+
+</html>
