@@ -6,6 +6,9 @@ Technologies & Tools I used for this project 🛠️
 * Domain Registration, Web Hosting at -> IONOS
 * XAMPP -> Server
 
+
+I focused on functionality of the app as design wasn't main thing for me in this project.
+
 AJAX ✏️
 
 * stands for Aysnchronus Javascript And XML
